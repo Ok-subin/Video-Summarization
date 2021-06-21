@@ -8,7 +8,7 @@
 
 ## 1. Model 설계
 &nbsp;&nbsp;참고한 모델의 전반적인 구조는 [그림 1]과 같다. 크게 1) CNN, 2) RNN, 3) Reward 계산으로 구성된다. <br/>
-![model](./ReadMe/model.jpg)<br/>
+![model](./Readme/model.jpg)<br/>
 [그림 1] 모델의 구조  
 
 **1.1 CNN**<br/>
@@ -16,11 +16,11 @@
 
 **1.2 RNN**<br/>
 &nbsp;&nbsp;BiLSTM과 GRU 모델에 대한 실험을 진행하였다.<br/>
-![summeTest](./ReadMe/summeTest.jpg)<br/>
+![summeTest](./Readme/summeTest.jpg)<br/>
 [그림 2] SumMe dataset에 BiLSTM, GRU 모델을 적용한 결과. 각각 layer를 1 ~ 3개로 설정하여 그 성능을 비교함
-![tvsumTest](./ReadMe/tvsumTest.jpg)<br/>
+![tvsumTest](./Readme/tvsumTest.jpg)<br/>
 [그림 3] TvSum dataset에 BiLSTM, GRU 모델을 적용한 결과. 각각 layer를 1 ~ 3개로 설정하여 그 성능을 비교함
-![layerTest](./ReadMe/layerTest.jpg)<br/>
+![layerTest](./Readme/layerTest.jpg)<br/>
 [그림 4] SumMe, TvSum dataset에 BiLSTM 모델을 적용한 결과. 각각 layer 수에 변화를 주며 그 성능을 비교함.<br/>
 
 그림 2 ~ 4를 통해서 layer의 수의 변화에 따른 모델의 성능에 규칙성이 없음을 알 수 있다. 위 실험 결과를 통해 본 프로젝트를 진행할 때 'BiLSTM 1layer' 구조를 사용하기로 결정한다.<br/>
