@@ -40,7 +40,7 @@ Frame Graph는 원본 영상의 각 프레임(회색) 중에서 선택된 프레
 ![SumMe5_graph](./Readme/SumMe5_graph.jpg)<br/>
 [그림 5] SumMe의 Video_5에 대한 Frame Graph<br/><br/>
 
-**3) 요약 영상 **<br/>
+**3) 요약 영상**<br/>
 &nbsp;&nbsp;용량의 문제로 아래의 사이트에 업로드할 예정이다.
 
 
