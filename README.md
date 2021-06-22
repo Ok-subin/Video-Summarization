@@ -32,15 +32,15 @@
 &nbsp;&nbsp;참고 논문에서 제공하는 소스코드의 대부분을 사용하고 결과 제작을 위해 그래프 생성 코드나 영상을 프레임으로 분할하는 코드 등을 추가로 제작하였다. 향후 계획은 참고 논문의 pretrained CNN과 RNN 부분의 모델을 수정하고, reward 계산 방식 역시 수정해보는 것이다.
 
 ## 3. Result
-# 1) F-Score
+**1) F-Score**<br/>
 F-Score에 대한 결과는 그림 2 ~ 4를 통해서 확인할 수 있다.<br/>
 
-# 2) Frame Graph
+**2) Frame Graph**<br/>
 Frame Graph는 원본 영상의 각 프레임(회색) 중에서 선택된 프레임(빨간색)이 어떤 것인지 그래프로 나타낸 것이다. 결과 확인을 위해 SumMe의 Video_5에 대한 Graph를 확인해보도록 한다.<br>
 ![SumMe5_graph](./Readme/SumMe5_graph.jpg)<br/>
 [그림 5] SumMe의 Video_5에 대한 Frame Graph<br/><br/>
 
-# 3) 요약 영상 
+**3) 요약 영상 **<br/>
 &nbsp;&nbsp;용량의 문제로 아래의 사이트에 업로드할 예정이다.
 
 
