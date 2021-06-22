@@ -32,25 +32,25 @@
 &nbsp;&nbsp;참고 논문에서 제공하는 소스코드의 대부분을 사용하고 결과 제작을 위해 그래프 생성 코드나 영상을 프레임으로 분할하는 코드 등을 추가로 제작하였다. 향후 계획은 참고 논문의 pretrained CNN과 RNN 부분의 모델을 수정하고, reward 계산 방식 역시 수정해보는 것이다.
 
 ## 3. Result
-# 1) F-Score <br/>
+# 1) F-Score
 F-Score에 대한 결과는 그림 2 ~ 4를 통해서 확인할 수 있다.<br/>
 
-# 2) Frame Graph <br/>
+# 2) Frame Graph
 Frame Graph는 원본 영상의 각 프레임(회색) 중에서 선택된 프레임(빨간색)이 어떤 것인지 그래프로 나타낸 것이다. 결과 확인을 위해 SumMe의 Video_5에 대한 Graph를 확인해보도록 한다.<br>
 ![SumMe5_graph](./Readme/SumMe5_graph.jpg)<br/>
 [그림 5] SumMe의 Video_5에 대한 Frame Graph<br/><br/>
 
-# 3) 요약 영상 < br/>
+# 3) 요약 영상 
+&nbsp;&nbsp;용량의 문제로 아래의 사이트에 업로드할 예정이다.
 
-
-https://user-images.githubusercontent.com/50392720/122859104-692ae880-d356-11eb-8b0b-4444fe7707f7.mp4
 
 
 ## 4. conclusion  
-***
+&nbsp;&nbsp;비디오 요약 모델은 여러 분야에서 활용될 수 있으며, 현재도 많이 활용되고 있다. 방대한 비디오 데이터 속에서 자신이 원하는 정보를 더 빠르고 더 쉽게 찾을 수 있도록 하기 위해 비디오 요약 기술은 매우 효과적일 것이다. 이는 전체 비디오를 보지 않고 요약된 비디오만을 시청함으로써 비디오의 전반적인 내용은 이해하면서 시청 시간은 많이 줄어들도록 해주기 때문이다. &nbsp;&nbsp;이번 캡스톤디자인 수업을 통해 실시한 프로젝트의 주요 내용은 강화 학습에 대한 스터디, 참고 논문 및 소스 코드에 대한 스터디였다. 모델 또는 파라미터 수정을 통해 모델의 성능을 향상시킴으로써 새로운 모델을 제안하려는 계획보다 다소 부족한 결과였다. 이는 졸업논문 작성 전에 실시를 완료할 예정이다.
 
 ## 5. 시연 동영상
-***
+&nbsp;&nbsp;용량의 문제로 아래의 사이트에 업로드할 예정이다.
+
 
 ## 참고문헌
 [1] Zhang, K., Chao, W. L., Sha, F., & Grauman, K. (2016, October). Video summarization with long short-term memory. In European conference on computer vision (pp. 766-782). Springer, Cham.
